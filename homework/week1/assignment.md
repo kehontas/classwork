@@ -21,6 +21,8 @@ git repository:
 
     git commit -a -m 'Answering question 0'
 
+    This is my sentence
+
 Proceed to push that to your remote git repository on github.
 
     git push
