@@ -21,14 +21,13 @@ git repository:
 
     git commit -a -m 'Answering question 0'
 
-    This is my sentence
+
 
 Proceed to push that to your remote git repository on github.
 
     git push
 
-Write your sentence here:
-
+Write your sentence here: This is my sentence
 
 ## 1. Play through the first three levels of [Manufactoria](http://pleasingfungus.com/Manufactoria/)
 
@@ -70,7 +69,7 @@ number stored in this slot":
     07:
     10: 12
     11: 15
-    12:
+    12: 
     13:
     14:
     15:
@@ -78,10 +77,10 @@ number stored in this slot":
     17:
 
 Feel free to use the above as space to actually work out the
-answer. What does this output?
+answer. What does this output?  11
 
 Try the same program with some other inputs in slots 10 and 11.  What
-does this program compute?
+does this program compute? If [11] is larger than [10] the remainder is zero
 
 ## 3. Low-level programming II
 
@@ -114,15 +113,15 @@ Here's the program:
     00: STO 0  11
     01: STO 1  12
     02: ADD 11 12 13
-    03: DEC 10
-    04: MOV 12 11
-    05: MOV 13 12
-    06: JNZ 10 02
+    03: DEC 10 (9)
+    04: MOV 12 11 (12)
+    05: MOV 13 12 (13)
+    06: JNZ 10 02 
     07: OUT 11
     10: 6
-    11:
-    12:
-    13:
+    11:(O)
+    12:(1)
+    13:(1)
     14:
     15:
     16:
