@@ -141,8 +141,8 @@ Most readings for the beginning of the class will come from this textbook.  You 
 
 ## 5. Finally:
 
-How much time did this problem set take you?
+How much time did this problem set take you?  well I still never finished the 3rd level of the game
 
-What, if anything, did you have trouble with?
+What, if anything, did you have trouble with? I had trouble with problem 3
 
 What, from lecture, would you like us to cover more clearly?
