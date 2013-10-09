@@ -16,17 +16,18 @@ describe in English what they mean:
     (example) x[-1]
         x[-1] is 2. The index of -1 refers to the last element in the list.
 
-    (a) x[2:4]
-    (b) x[1:]
-    (c) x[:4]
-    (d) x[1:][2]
-    (e) x[2:-2]
-    (f) x[5:3]
-    (g) x[100]
-    (h) x[-100:100]
-    (i) "surprise"[1:4]
+    (a) x[2:4] # x[2:4] is 7,2. the indices 2 and 4 refer to the elements in the list
+    (b) x[1:] # [1:] is everything element in the list excluding the zeroth element
+    (c) x[:4] # x[:4] is the elemets startig from zeroth element up to the 4th
+    (d) x[1:][2] # [1:][2] is 2. Starting from the element in the first index and then returning the second element after that
+    (e) x[2:-2] # [2:-2] is 7,2,4,8. Startig from the second index skipping every two through the end of the list 
+    (f) x[5:3] # [5:3] is nothing because it is starting at the element in the 5th inex skipping every 3 which is nothing
+    (g) x[100] # [100] is an error because there is no 100th index
+    (h) x[-100:100] # [-100:100] is the list because starting at the -100 index and then going to the 100th element is everything starting from the zeroth element
+    (i) "surprise"[1:4] # [1:4] returns the string 'urp' because the reference is now "surpirse" adn not x therefore what is returned is the elemets in the indices 1-4
 
 What's the difference between `x[2:3]` and `x[2]`?
+x[2:3] returns the list of elements in the indices 2 - 3. x[2] returns the element in the twoeth index
 
 ## List sorting
 
