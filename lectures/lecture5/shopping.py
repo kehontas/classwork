@@ -1,5 +1,6 @@
 fruits = ["apple", "banana", "orange", "cherry", "tomato"]
 
+
 def pluralize(word):
     if word[-1] == 'y':
         inflected_word = word[0:-1]+"ies"
